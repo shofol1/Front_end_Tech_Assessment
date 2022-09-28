@@ -1,0 +1,22 @@
+.evenPageWrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.icon {
+  color: #8456ec;
+  font-size: 20px;
+}
+.iconWrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+.marginTop {
+  margin-top: 16px;
+}
+.image {
+  width: 500px;
+  height: 500px;
+}
+.details {
+  margin-top: 40px;
+}

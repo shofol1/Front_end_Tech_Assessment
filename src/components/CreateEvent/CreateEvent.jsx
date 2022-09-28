@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import style from "./CreateEvent.module.css";
 export default function CreateEvent() {
   return (
@@ -12,7 +13,9 @@ export default function CreateEvent() {
         Easily host and share events with your friends <br /> across any social
         media.
       </p>
-      <Button className={style.customEventBtn}>🎉 Create my event</Button>
+      <Link to="/create">
+        <Button className={style.customEventBtn}>🎉 Create my event</Button>
+      </Link>
     </div>
   );
 }
