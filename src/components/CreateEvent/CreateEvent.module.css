@@ -1,0 +1,34 @@
+.createEventWrapper {
+  font-family: "Helvetica";
+  font-style: normal;
+  text-align: right;
+}
+
+.leftHeadingText {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+
+  color: #240d57;
+}
+.leftParagaraphText {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #4f4f4f;
+}
+.snapchatText {
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.customEventBtn {
+  width: 320px;
+  height: 55px;
+  left: calc(50% - 320px / 2 + 436px);
+  top: 622px;
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+import React from "react";
+import { Button } from "react-bootstrap";
+import style from "./CreateEvent.module.css";
+export default function CreateEvent() {
+  return (
+    <div className={style.createEventWrapper}>
+      <h1 className={style.leftText}>
+        Imagine if <br /> <span className={style.snapchatText}>SnapChat</span>
+        <br /> had events.
+      </h1>
+      <p className={style.leftParagaraphText}>
+        Easily host and share events with your friends <br /> across any social
+        media.
+      </p>
+      <Button className={style.customEventBtn}>🎉 Create my event</Button>
+    </div>
+  );
+}

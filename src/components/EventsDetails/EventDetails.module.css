@@ -1,0 +1,43 @@
+.innerSectionWidth {
+  width: 372px;
+  margin: 0 auto;
+}
+.eventDetailsWrapper {
+  width: 440px;
+  height: 775.69px;
+  border-radius: 35.1522px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cakeImage {
+  width: 440px;
+  height: 296px;
+  object-fit: cover;
+}
+.inviteBtn {
+  background: #8456ec;
+  width: 100px;
+}
+.responses {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.icon {
+  background-color: #f9f8fd;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.eventDetailText {
+  font-size: 19px;
+  color: #000000;
+  font-weight: bold;
+}
+.arrowIcon {
+  font-size: 2.5rem !important;
+  color: #ddd;
+}
+.eventDetailParaText {
+  color: #656565;
+}
