@@ -6,17 +6,10 @@ import "./App.css";
 import Home from "./components/Pages/Home/Home";
 import CreateEventPage from "./components/Pages/CreateEventPage/CreateEventPage";
 import EventPage from "./components/Pages/EventPage/EventPage";
+import MyForm from "./components/formData/MyForm";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="/create" element={<CreateEventPage />} />
-        <Route path="/event" element={<EventPage />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <MyForm />;
 }
 
 export default App;
